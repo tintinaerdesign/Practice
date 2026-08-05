@@ -1,4 +1,5 @@
-import { MenuItem } from '../utils/types';kh
+import { MenuItem } from '../utils/types';
+
 
 export function addToCart(
     item: MenuItem,
@@ -21,3 +22,4 @@ export function addToCart(
         return [...prevCart, { ...item, quantity: 1 }];
     });
 }
+

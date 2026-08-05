@@ -8,7 +8,7 @@ import {
     } from 'react-native';
 
 import { MenuItem } from '../utils/types';
-import { addToCart } from '../cart/addToCart';
+import { addToCart } from '../func/function';
 import { coffeeMenu } from '../data/menu';
 
 import { LinearGradient } from 'expo-linear-gradient';
