@@ -1,12 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
+import OrderMenu from './src/screens/OrderMenu';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+    <SafeAreaProvider style={styles.container}>
+
+      <OrderMenu />
       <StatusBar style="auto" />
-    </View>
+
+    </SafeAreaProvider>
   );
 }
 
